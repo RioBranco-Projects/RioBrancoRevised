@@ -11,28 +11,43 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
 }
 
 .rightside {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 45px;
     padding: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.links a:hover {
+    transition: calc(.4s);
+    transform: scale(1.1);
+    border-bottom: white solid 4px;
 }
 
 .social {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     align-items: center;
 }
 .social a {
     color: white;
     text-decoration: none;
 }
-.social a img {
-    width: 30px;
-    height: 30px;
-}
+
 
 .leftside {
     display: flex;
@@ -54,4 +69,26 @@
     cursor: pointer;
     transform: scale(1.1);
     transition: calc(.3s);
+}
+
+.finalside {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    height: 20px;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.finalside a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.finalside a:hover {
+    transition: calc(.3s);
+    transform: scale(1.025);
 }
