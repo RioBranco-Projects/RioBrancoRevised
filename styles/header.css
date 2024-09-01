@@ -90,5 +90,6 @@
 
 .finalside a:hover {
     transition: calc(.3s);
-    transform: scale(1.025);
+    transform: scale(1.05);
 }
+
