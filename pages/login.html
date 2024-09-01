@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login RB</title>
+    <link rel="stylesheet" href="../styles/changeLogin.css"> 
 </head>
 <body>
-    <h1>Login</h1>
-</body>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Crie sua conta</h1>
+                <span>or use your email for registeration</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Sign Up</button>
+                <img src="../images/RioBrancoBranca.png" alt="">
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Faça seu login</h1>
+                <span>Use seu email e senha de cadastro</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Entrar</button>
+                <img src="../images/RioBrancoBranca.png" alt="">
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <img src="../images/RioBrancoLaranja.png" alt="">
+                    <h1>Bem vindo estudante!</h1>
+                    <p>Se você já tiver o registro fornecido pela faculdade, é só efetuar o login clicando no botão abaixo.</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <img src="../images/RioBrancoLaranja.png" alt="">
+                    <h1>Eai estudante?</h1>
+                    <p>Se ainda não se registrou em nossa faculdade, fale com um dos administradores para receber o login, ou solicite uma nova.</p>
+                    <button class="hidden" id="register">Cadastrar-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/stylescripts/changeLogin.js"></script>
+</body> 
 </html>
