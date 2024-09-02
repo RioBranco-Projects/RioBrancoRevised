@@ -6,8 +6,6 @@
 }
 
 body{
-    background-color: #ffffff;
-    background: linear-gradient(to right, #ffffff, #ffffff);
     display: flex;
     background-image: url(../images/RioBrancoBackground.jpg);
     background-size: cover;
@@ -209,3 +207,13 @@ body{
     transform: translateX(200%);
 }
 
+.voltar {
+    position: relative;
+    top: -30px;
+    left: -190px;
+    z-index: 99;
+    transition: calc(.4s);
+}
+.voltar:hover {
+    transform: scale(1.1);
+}
