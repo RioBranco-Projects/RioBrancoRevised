@@ -70,25 +70,4 @@
     transition: calc(.3s);
 }
 
-.finalside {
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    width: 260px;
-    height: 20px;
-    align-items: center;
-    gap: 10px;
-    display: flex;
-}
-
-.finalside a{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-.finalside a:hover {
-    transition: calc(.3s);
-    transform: scale(1.05);
-}
 
