@@ -1,0 +1,9 @@
+.conteudo {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 530px;
+}
+

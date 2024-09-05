@@ -6,9 +6,10 @@ let index = 0;
 
 function showImage(index) {
     const totalImages = carouselImages.children.length;
-    const offset = -index * 1920; // 800px é a largura das imagens
+    const offset = -index * 1920;
     carouselImages.style.transform = `translateX(${offset}px)`;
 }
+
 
 prevButton.addEventListener('click', () => {
     index = (index > 0) ? index - 1 : carouselImages.children.length - 1;

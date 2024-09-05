@@ -7,7 +7,7 @@
 
 .topo {
     z-index: 999;
-    background-color: #E87722;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,18 +24,19 @@
 
 .links {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .links a {
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
+    color: #a74901;
+    font-size: 22px;
+    transition: calc(.5s);
 }
 .links a:hover {
-    transition: calc(.4s);
-    transform: scale(1.1);
-    border-bottom: white solid 4px;
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.05);
 }
 
 .social {
@@ -43,27 +44,28 @@
     gap: 30px;
     align-items: center;
 }
-.social a {
-    color: white;
-    text-decoration: none;
+
+.social a:hover{
+    transition: calc(.4s);
+    transform: scale(1.1);
 }
 
 
 .leftside {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 35px;
     padding: 10px;
 }
 
 .leftside h1 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .leftside img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 .leftside img:hover {
     cursor: pointer;
@@ -71,4 +73,23 @@
     transition: calc(.3s);
 }
 
+.cursos {
+    background-color: white;
+    border-radius: 15px;
+    width: 230px;
+    height: 30px;
+    transition: calc(.3s);
+    border: none;
+}
 
+.cursos h1 {
+    color: #E87722;
+    font-size: 24px;
+    text-align: center;
+    border: none;
+}
+
+.cursos:hover{
+    transform: scale(1.05);
+    border: none;
+}
