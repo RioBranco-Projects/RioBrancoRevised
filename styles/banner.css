@@ -2,10 +2,11 @@
     position: relative;
     width: 1920px;
     overflow: hidden;
+    background-color: black;
 }
 
 .carousel-images {
-    margin-top: 10px;
+    margin-top: 5%;
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
