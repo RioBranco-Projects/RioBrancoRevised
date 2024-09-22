@@ -1,15 +1,55 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 80px;
-    text-align: justify;
+    margin-bottom: 30px;
 }
 
 .inicio img {
     width: 600px;
     height: 200px;
+    margin-left: 80px;
+}
+
+.sobre_nos_titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.modelo_pedagogico_titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.corpo_decente_titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.mantenedora_titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+.mantidas_titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+
+p {
+    font-size: 17px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.links {
+    color: blue
 }

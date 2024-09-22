@@ -1,0 +1,95 @@
+body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faleconosco_titulo {
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nome_telefone_email {
+    margin: 20px;
+    text-align: center;
+}
+
+.identificaçao_titulo {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.identificaçao {
+    margin: 20px;
+    text-align: center;
+}
+
+.assunto_titulo {
+    margin-bottom: 15px;
+}
+
+.assunto {
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+
+.digitemensagem_titulo {
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.checkbox_container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_container label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+}
+
+input.Seu-nome {
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+input.Seu-telefone {
+    height: 40px;
+    padding-left: 10px;
+}
+
+input.Seu-email {
+    height: 40px;
+    padding-left: 10px;
+}
+
+input.N°dematrícula {
+    height: 40px;
+    padding-left: 10px;
+}
+
+select.Áreadeinteresse {
+    height: 44px;
+    padding-left: 10px;
+}
+
+textarea.digiteasuamensagem {
+    height: 40px;
+    padding-left: 10px;
+}
+
+input.codigo {
+    height: 40px;
+    padding-left: 10px;
+}

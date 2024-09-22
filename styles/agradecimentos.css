@@ -1,9 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #ff4600;
+    background-color: orange;
     color: white;
-    margin-top: 50px;
+    margin-top: 20px;
     height: 700px;
     font-size: 18px;
 }
@@ -22,7 +22,7 @@ table {
 }
 
 .obrigado {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .texto {
@@ -43,4 +43,8 @@ table {
 .codigos a {
     text-decoration: none;
     color: black;
+}
+
+.logo_riobranco {
+    height: 130px;
 }

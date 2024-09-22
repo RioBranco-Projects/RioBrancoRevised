@@ -5,13 +5,12 @@
     text-decoration: none;
 }
 
-.topo {
+.cabessalho_aboutus {
     z-index: 999;
     background-color: orange;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
     width: 100%;
 }
 
@@ -32,18 +31,19 @@
     color: black;
     font-size: 22px;
     transition: calc(.5s);
+    margin-top: 5px;
 }
 
 .links a:hover {
     color: white;
-    transform: scale(1.00);
-    text-decoration: none;
+    transform: scale(1.0);
 }
 
 .social {
     display: flex;
     gap: 30px;
     align-items: center;
+    margin-top: 10px;
 }
 
 .social a:hover{
@@ -62,13 +62,11 @@
     color: white;
     font-size: 30px;
     font-weight: 900;
-    margin-bottom: 5px;
 }
 
 .leftside img {
     width: 50px;
     height: 50px;
-    margin-bottom: 10px;
 }
 
 .leftside img:hover {
@@ -96,22 +94,4 @@
 .cursos:hover{
     transform: scale(1.05);
     border: none;
-}
-
-.card-title {
-    font-family: Arial, Helvetica, sans-serif;
-}
-.card-text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-}
-
-.list-group-item {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.card-link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: blue;
-    font-size: 17px;
 }
